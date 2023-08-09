@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E0DEDE;
+}
+
+a, li, button{
+    font-size:16px ;
+    color: aqua;
+    text-decoration: none;
+    border-style: none;
+}
+
+.logo{
+    height: 60px;
+    width: 90px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+header a{
+    color: #000;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    color: #000;
+}
+
+header button{
+    padding: 8px 25px;
+    background-color: #921C1C;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.main h1{
+    font-size: 140px;
+}
+.main h2{
+    font-size: 30px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.main p{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    top: 30px;
+}
+.text-elements{
+    left: 150px;
+    position: absolute;
+    top: 200px;
+}
+.text-elements p {
+    top: 20px;
+    position: relative;
+    font-size: 20px;
+}
+.text-elements a {
+    top: 10px;
+    position: relative;
+    font-size: 20px;
+}
+.text-elements .blue{
+    top: 30px;
+}
+.blue button{
+    padding: 8px 25px;
+    background-color: #36499e;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.shoe{
+    position: absolute;
+    height: 600px;
+    width: 950px;
+    top: 200px;
+    left: 330px;
+    background-color: transparent;
+    rotate: -30deg;
+}
+.rectangle{
+    position: absolute;
+    height: 350px;
+    width: 750px;
+    background-color: #2738d8;
+    left: 513px;
+    top: 400px;
+}
+.rectangle2{
+    position: absolute;
+    background-color: #921C1C;
+    left: 513px;
+    top: 400px;
+    height: 50px;
+    width: 70px;
+}
+.facebook{
+    position: absolute;
+    background-color: transparent;
+    width: 30px;
+    left: 1320px;
+    top: 300px;
+}
+.instagram{
+    position: absolute;
+    background-color: transparent;
+    width: 30px;
+    left: 1320px;
+    top: 370px;
+}
+.twitter{
+    position: absolute;
+     background-color: transparent;
+    width: 30px;
+    left: 1320px;
+    top: 440px;
+}
+.linkedin{
+    position: absolute;
+    background-color: transparent;
+    width: 30px;
+    left: 1320px;
+    top: 510px;
+}
+.circles img{
+    padding-right: 10px;
+    display: inline-block;
+}
+
